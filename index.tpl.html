@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./static/favicon.ico">
+  <title>React框架--移动端</title>
+  <script>
+    function errorHandler(e) {
+      var error = 'error: ' + e.message + '\n file: ' + e.filename + '\n line: ' + e.lineno;
+      alert(error);
+    }
+    // for debug: alert弹出未处理的所有error信息
+    window.addEventListener("error", errorHandler, false);
+  </script>
+</head>
+
+<body>
+  <div id="container"></div>
+</body>
+
+</html>
